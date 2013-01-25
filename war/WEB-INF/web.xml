@@ -3,7 +3,7 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>loadUserService</servlet-name>
-    <servlet-class>ca.ubc.cpsc310.gitlab.server.LoadUserServiceImpl</servlet-class>
+    <servlet-class>ca.ubc.cpsc310.gitlab.server.system</servlet-class>
   </servlet>
   
   <servlet-mapping>
@@ -18,7 +18,7 @@
 
   <servlet>
     <servlet-name>SystemServiceServlet</servlet-name>
-    <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+    <servlet-class>com.google.api.server.spi.System</servlet-class>
     <init-param>
       <param-name>services</param-name>
       <param-value/>
